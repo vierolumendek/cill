@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hallou cill!</title>
+    </head>
+    <body>
+        <br>
+        <h1 >lingkannnnn!!</h1>
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2017%2F10%2Fcute-turtle-gif-9.gif&f=1&nofb=1&ipt=2766614a3d63b183b09ae6e1c47c2bac1660a2b11ad80b3d9de4aba2865543fe&ipo=images">
+        <h1>do you want to call me by again?</h1>
+        <div class="tombol">
+
+            <a href="page3.html" style="text-align: start;">
+                <button id='btn_mau' onlick='alert("allou");'>Mau</button>
+            </a> 
+            <button id = 'btn_gamau' onclick = 'gamau(this)' style="position: absolute;">gamaoo</button>
+        </div>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random() * 300 + 1);
+            var j = Math.floor(Math.random() * 100 + 1); + mau.offsetTop;
+            id.style.left = i + 'px';
+            id.style.top =  j + 'px';
+
+        }
+
+        function mau(){
+            alert("");
+        }
+        </script>
+        <style>
+            @font-face {
+              font-family: "Bookman Old Style";
+                src: url(Fonts/BOOKOS.TTF);
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            body{
+                text-align: center;
+                background-color: #16191e;
+                color: #f4f5f5;
+            }  
+
+            button {
+                text-align: center;
+                width: 30%;
+                height: 40px;
+                background-color: #16191e;
+                font-size: 20px;
+                border-width: 1px;
+                border-radius: 12px;
+                color: 	#FFFAFA;
+            }
+
+            button:hover{
+                background-color:#FFFAFA;
+                -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                opacity: 1;
+                z-index: 2;
+                color: 	#16191e;
+            }
+
+        </style>
+</html>
